@@ -1,0 +1,129 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/win-x64": {
+      "ShareX_NativeMessagingHost/20.2.0": {
+        "dependencies": {
+          "ShareX.HelpersLib": "20.2.0"
+        },
+        "runtime": {
+          "ShareX_NativeMessagingHost.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "ShareX.HelpersLib/20.2.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "ShareX.HelpersLib.dll": {
+            "assemblyVersion": "20.2.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        },
+        "resources": {
+          "ar-YE/ShareX.HelpersLib.resources.dll": {
+            "locale": "ar-YE"
+          },
+          "de/ShareX.HelpersLib.resources.dll": {
+            "locale": "de"
+          },
+          "es/ShareX.HelpersLib.resources.dll": {
+            "locale": "es"
+          },
+          "es-MX/ShareX.HelpersLib.resources.dll": {
+            "locale": "es-MX"
+          },
+          "fa-IR/ShareX.HelpersLib.resources.dll": {
+            "locale": "fa-IR"
+          },
+          "fr/ShareX.HelpersLib.resources.dll": {
+            "locale": "fr"
+          },
+          "he-IL/ShareX.HelpersLib.resources.dll": {
+            "locale": "he-IL"
+          },
+          "hu/ShareX.HelpersLib.resources.dll": {
+            "locale": "hu"
+          },
+          "id-ID/ShareX.HelpersLib.resources.dll": {
+            "locale": "id-ID"
+          },
+          "it-IT/ShareX.HelpersLib.resources.dll": {
+            "locale": "it-IT"
+          },
+          "ja-JP/ShareX.HelpersLib.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "ko-KR/ShareX.HelpersLib.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "nl-NL/ShareX.HelpersLib.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "pl/ShareX.HelpersLib.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/ShareX.HelpersLib.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "pt-PT/ShareX.HelpersLib.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "ro/ShareX.HelpersLib.resources.dll": {
+            "locale": "ro"
+          },
+          "ru/ShareX.HelpersLib.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/ShareX.HelpersLib.resources.dll": {
+            "locale": "tr"
+          },
+          "uk/ShareX.HelpersLib.resources.dll": {
+            "locale": "uk"
+          },
+          "vi-VN/ShareX.HelpersLib.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "zh-CN/ShareX.HelpersLib.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "zh-TW/ShareX.HelpersLib.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShareX_NativeMessagingHost/20.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "ShareX.HelpersLib/20.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
