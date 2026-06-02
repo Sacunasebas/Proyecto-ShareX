@@ -82,7 +82,7 @@ namespace ShareX
         #region Theme
 
         public List<ShareXTheme> Themes = ShareXTheme.GetDefaultThemes();
-        public int SelectedTheme = 0;
+        public int SelectedTheme = 6; // Cyberpunk theme by default
 
         #endregion
 

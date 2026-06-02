@@ -81,6 +81,15 @@ namespace ShareX
             niTray.Icon = ShareXResources.Icon;
             Text = Program.Title;
 
+            // Advanced UI enhancements
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75f, System.Drawing.FontStyle.Regular);
+            this.MinimumSize = new System.Drawing.Size(900, 550);
+            lvUploads.Font = new System.Drawing.Font("Segoe UI", 9.5f);
+            lvUploads.GridLines = false;
+            lvUploads.FullRowSelect = true;
+            lvUploads.HotTracking = true;
+            lvUploads.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+
             UpdateTheme();
 
             this.CloseOnEscape();

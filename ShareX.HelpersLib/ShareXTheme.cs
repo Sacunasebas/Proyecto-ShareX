@@ -132,9 +132,9 @@ namespace ShareX.HelpersLib
         [Editor(typeof(MyColorEditor), typeof(UITypeEditor)), TypeConverter(typeof(MyColorConverter))]
         public Color MenuCheckBackgroundColor { get; set; }
 
-        public Font MenuFont { get; set; } = new Font("Segoe UI", 9.75f);
+        public Font MenuFont { get; set; } = new Font("Segoe UI", 10.5f, FontStyle.Regular);
 
-        public Font ContextMenuFont { get; set; } = new Font("Segoe UI", 9.75f);
+        public Font ContextMenuFont { get; set; } = new Font("Segoe UI", 10f, FontStyle.Regular);
 
         public int ContextMenuOpacity { get; set; } = 100;
 
@@ -271,9 +271,87 @@ namespace ShareX.HelpersLib
             SeparatorDarkColor = Color.FromArgb(33, 35, 43)
         };
 
+        public static ShareXTheme CyberpunkTheme => new ShareXTheme()
+        {
+            Name = "Cyberpunk",
+            BackgroundColor = Color.FromArgb(8, 10, 18),
+            LightBackgroundColor = Color.FromArgb(14, 18, 30),
+            DarkBackgroundColor = Color.FromArgb(4, 6, 12),
+            TextColor = Color.FromArgb(0, 230, 255),
+            BorderColor = Color.FromArgb(0, 180, 220),
+            CheckerColor = Color.FromArgb(8, 10, 18),
+            CheckerColor2 = Color.FromArgb(4, 6, 12),
+            LinkColor = Color.FromArgb(180, 0, 255),
+            MenuHighlightColor = Color.FromArgb(0, 40, 60),
+            MenuHighlightBorderColor = Color.FromArgb(0, 230, 255),
+            MenuBorderColor = Color.FromArgb(0, 100, 140),
+            MenuCheckBackgroundColor = Color.FromArgb(0, 30, 50),
+            SeparatorLightColor = Color.FromArgb(0, 100, 140),
+            SeparatorDarkColor = Color.FromArgb(0, 60, 90),
+            MenuFont = new Font("Segoe UI", 10.5f, FontStyle.Regular),
+            ContextMenuFont = new Font("Segoe UI", 10f, FontStyle.Regular)
+        };
+
+        public static ShareXTheme NeonPurpleTheme => new ShareXTheme()
+        {
+            Name = "Neon Purple",
+            BackgroundColor = Color.FromArgb(12, 8, 20),
+            LightBackgroundColor = Color.FromArgb(22, 14, 36),
+            DarkBackgroundColor = Color.FromArgb(8, 4, 14),
+            TextColor = Color.FromArgb(220, 180, 255),
+            BorderColor = Color.FromArgb(140, 60, 220),
+            CheckerColor = Color.FromArgb(12, 8, 20),
+            CheckerColor2 = Color.FromArgb(8, 4, 14),
+            LinkColor = Color.FromArgb(255, 80, 200),
+            MenuHighlightColor = Color.FromArgb(40, 10, 70),
+            MenuHighlightBorderColor = Color.FromArgb(200, 80, 255),
+            MenuBorderColor = Color.FromArgb(100, 30, 160),
+            MenuCheckBackgroundColor = Color.FromArgb(30, 10, 55),
+            SeparatorLightColor = Color.FromArgb(100, 30, 160),
+            SeparatorDarkColor = Color.FromArgb(60, 10, 100)
+        };
+
+        public static ShareXTheme MatrixGreenTheme => new ShareXTheme()
+        {
+            Name = "Matrix Green",
+            BackgroundColor = Color.FromArgb(4, 10, 4),
+            LightBackgroundColor = Color.FromArgb(8, 18, 8),
+            DarkBackgroundColor = Color.FromArgb(2, 6, 2),
+            TextColor = Color.FromArgb(0, 255, 70),
+            BorderColor = Color.FromArgb(0, 180, 50),
+            CheckerColor = Color.FromArgb(4, 10, 4),
+            CheckerColor2 = Color.FromArgb(2, 6, 2),
+            LinkColor = Color.FromArgb(100, 255, 150),
+            MenuHighlightColor = Color.FromArgb(0, 35, 10),
+            MenuHighlightBorderColor = Color.FromArgb(0, 255, 70),
+            MenuBorderColor = Color.FromArgb(0, 120, 35),
+            MenuCheckBackgroundColor = Color.FromArgb(0, 25, 8),
+            SeparatorLightColor = Color.FromArgb(0, 120, 35),
+            SeparatorDarkColor = Color.FromArgb(0, 70, 20)
+        };
+
+        public static ShareXTheme SunsetOrangeTheme => new ShareXTheme()
+        {
+            Name = "Sunset Orange",
+            BackgroundColor = Color.FromArgb(18, 8, 4),
+            LightBackgroundColor = Color.FromArgb(30, 14, 8),
+            DarkBackgroundColor = Color.FromArgb(12, 4, 2),
+            TextColor = Color.FromArgb(255, 160, 60),
+            BorderColor = Color.FromArgb(200, 90, 20),
+            CheckerColor = Color.FromArgb(18, 8, 4),
+            CheckerColor2 = Color.FromArgb(12, 4, 2),
+            LinkColor = Color.FromArgb(255, 80, 80),
+            MenuHighlightColor = Color.FromArgb(50, 20, 5),
+            MenuHighlightBorderColor = Color.FromArgb(255, 140, 40),
+            MenuBorderColor = Color.FromArgb(150, 60, 10),
+            MenuCheckBackgroundColor = Color.FromArgb(40, 14, 4),
+            SeparatorLightColor = Color.FromArgb(150, 60, 10),
+            SeparatorDarkColor = Color.FromArgb(90, 30, 5)
+        };
+
         public static List<ShareXTheme> GetDefaultThemes()
         {
-            return new List<ShareXTheme>() { DarkTheme, LightTheme, NightTheme, NordDarkTheme, NordLightTheme, DraculaTheme };
+            return new List<ShareXTheme>() { DarkTheme, LightTheme, NightTheme, NordDarkTheme, NordLightTheme, DraculaTheme, CyberpunkTheme, NeonPurpleTheme, MatrixGreenTheme, SunsetOrangeTheme };
         }
 
         public override string ToString()
