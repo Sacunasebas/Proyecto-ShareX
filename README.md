@@ -1,50 +1,118 @@
-<p align="center"><a href="https://getsharex.com"><img src="https://getsharex.com/img/ShareX_Banner.png" alt="ShareX Banner"/></a></p>
-<h3 align="center">Screen capture, file sharing and productivity tool</h3>
-<br>
 <div align="center">
-  <a href="https://github.com/ShareX/ShareX/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/ShareX/ShareX/build.yml?branch=develop&label=Build&cacheSeconds=3600" alt="GitHub Workflow Status"/></a>
-  <a href="./LICENSE.txt"><img src="https://img.shields.io/github/license/ShareX/ShareX?label=License&color=brightgreen&cacheSeconds=3600" alt="License"/></a>
-  <a href="https://github.com/ShareX/ShareX/releases/latest"><img src="https://img.shields.io/github/v/release/ShareX/ShareX?label=Release&color=brightgreen&cacheSeconds=3600" alt="Release"/></a>
-  <a href="https://getsharex.com/downloads"><img src="https://img.shields.io/github/downloads/ShareX/ShareX/total?label=Downloads&cacheSeconds=3600" alt="Downloads"/></a>
-  <a href="https://discord.gg/ShareX"><img src="https://img.shields.io/discord/194170124859736065?label=Discord&cacheSeconds=3600" alt="Discord"/></a>
-  <a href="https://twitter.com/intent/follow?screen_name=ShareX"><img src="https://img.shields.io/twitter/follow/ShareX?cacheSeconds=3600" alt="Twitter"/></a>
+
+# ⚡ ShareX Modificado
+
+### Herramienta avanzada de captura de pantalla, compartición de archivos y productividad
+
+[![Build](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=github)](https://github.com/Sacunasebas/Proyecto-ShareX)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue?style=for-the-badge)](./LICENSE.txt)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=for-the-badge&logo=windows)](https://github.com/Sacunasebas/Proyecto-ShareX)
+[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge&logo=dotnet)](https://github.com/Sacunasebas/Proyecto-ShareX)
+
 </div>
-<br>
-<p align="center"><a href="https://getsharex.com"><img src="https://getsharex.com/img/ShareX_Screenshot.png" alt="ShareX Screenshot"/></a></p>
-<p align="center">For further information please check our <a href="https://getsharex.com">website</a></p>
 
-## Links
-* Official website: https://getsharex.com
-* GitHub: https://github.com/ShareX/ShareX
-* Changelog: https://getsharex.com/changelog
-* Privacy policy: https://getsharex.com/privacy-policy
-* Donate: https://getsharex.com/donate
-* Twitter: https://twitter.com/ShareX
-* Discord: https://discord.gg/ShareX
-* Reddit: https://www.reddit.com/r/sharex
-* Steam page: https://store.steampowered.com/app/400040/ShareX/
-* Microsoft Store page: https://apps.microsoft.com/detail/9nblggh4z1sp
+---
 
-## Documents
-* Image effects: https://getsharex.com/image-effects
-* Actions: https://getsharex.com/actions
-* Dev builds: https://getsharex.com/docs/dev-builds
-* Keybinds: https://getsharex.com/docs/keybinds
-* Scrolling screenshot: https://getsharex.com/docs/scrolling-screenshot
-* Command line arguments: https://getsharex.com/docs/command-line-arguments
-* Translation: https://getsharex.com/docs/translation
-* OCR: https://getsharex.com/docs/ocr
-* Custom uploader: https://getsharex.com/docs/custom-uploader
-* Amazon S3 guide: https://getsharex.com/docs/amazon-s3
-* Google Cloud Storage guide: https://getsharex.com/docs/google-cloud-storage
-* Cloudflare R2 guide: https://getsharex.com/docs/cloudflare-r2
-* Brand assets: https://getsharex.com/brand-assets
+## 🚀 ¿Qué es ShareX Modificado?
 
-## Star History
-<a href="https://www.star-history.com/?repos=ShareX%2FShareX&type=date&legend=bottom-right">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ShareX/ShareX&type=date&theme=dark&legend=bottom-right" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ShareX/ShareX&type=date&legend=bottom-right" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ShareX/ShareX&type=date&legend=bottom-right" />
- </picture>
-</a>
+ShareX Modificado es una versión mejorada y personalizada de ShareX, con nuevas funcionalidades inteligentes, temas visuales avanzados y herramientas exclusivas que no están en la versión oficial.
+
+---
+
+## ✨ Funciones Exclusivas (Smart Tools)
+
+| Función | Descripción |
+|---|---|
+| ⚡ **Smart Subject Crop** | Recorte inteligente del sujeto principal de la imagen |
+| 🔍 **Screen Diff** | Compara diferencias entre capturas de pantalla |
+| 📋 **Clipboard History** | Historial completo del portapapeles |
+| ⏱️ **Start Timelapse** | Graba timelapse de tu pantalla automáticamente |
+| 🔒 **Privacy Blur** | Difumina automáticamente información sensible |
+| ✏️ **Smart Annotate** | Anotación inteligente con herramientas avanzadas |
+| 🖥️ **All Monitors Capture** | Captura todos los monitores simultáneamente |
+
+---
+
+## 🎨 Temas Visuales
+
+Esta versión incluye temas avanzados diseñados para una experiencia visual premium:
+
+| Tema | Descripción |
+|---|---|
+| 🌀 **Cyberpunk** *(predeterminado)* | Fondo negro profundo con acentos en cian eléctrico |
+| 🟣 **Neon Purple** | Fondo oscuro con acentos en púrpura/magenta neón |
+| 🟢 **Matrix Green** | Estilo Matrix con texto verde brillante sobre negro |
+| 🟠 **Sunset Orange** | Fondo oscuro con acentos naranja/rojo fuego |
+| 🌙 **Dark** | Tema oscuro clásico |
+| ☀️ **Light** | Tema claro limpio |
+| 🌑 **Night** | Negro puro para máximo contraste |
+| 🧊 **Nord Dark / Nord Light** | Paleta nórdica fría |
+| 🧛 **Dracula** | Tema Dracula popular entre desarrolladores |
+
+> Para cambiar de tema: **Configuración de la aplicación → Tema**
+
+---
+
+## 📥 Instalación y Ejecución
+
+### Opción 1 — Ejecutar directamente (recomendado)
+
+1. Descarga este repositorio como ZIP (botón verde **Code → Download ZIP**)
+2. Extrae el ZIP
+3. Navega a: `ShareX` → `bin` → `Debug` → `win-x64`
+4. Ejecuta **`ShareX.exe`**
+
+> ⚠️ **Requisito:** Windows 10/11 de 64 bits
+
+### Opción 2 — Compilar desde el código fuente
+
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/Sacunasebas/Proyecto-ShareX.git
+
+# 2. Abre ShareX.sln en Visual Studio 2022
+
+# 3. Presiona F5 para compilar y ejecutar
+```
+
+> **Requisitos para compilar:** Visual Studio 2022 + .NET 9.0 SDK
+
+---
+
+## 🛠️ Tecnologías
+
+- **Lenguaje:** C# / .NET 9.0
+- **UI Framework:** Windows Forms
+- **Plataforma:** Windows x64
+- **IDE recomendado:** Visual Studio 2022
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+ShareX-Modificado/
+├── ShareX/                      # Proyecto principal
+│   ├── Forms/                   # Formularios de la interfaz
+│   ├── bin/Debug/win-x64/       # ✅ Ejecutables listos para usar
+│   └── ...
+├── ShareX.HelpersLib/           # Biblioteca de utilidades y temas
+├── ShareX.ScreenCaptureLib/     # Motor de captura de pantalla
+├── ShareX.UploadersLib/         # Integraciones de subida
+├── ShareX.ImageEffectsLib/      # Efectos de imagen
+└── ShareX.ImageEditor/          # Editor de imágenes integrado
+```
+
+---
+
+## 📄 Licencia
+
+Este proyecto está basado en [ShareX](https://github.com/ShareX/ShareX) y se distribuye bajo la licencia **GPL-3.0**.
+
+---
+
+<div align="center">
+
+**Hecho con ❤️ por [Sacunasebas](https://github.com/Sacunasebas)**
+
+</div>
